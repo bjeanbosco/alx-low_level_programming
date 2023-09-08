@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there
  * main: is for validating if the number ins positive
  * Return:  style doc for function main goes there
