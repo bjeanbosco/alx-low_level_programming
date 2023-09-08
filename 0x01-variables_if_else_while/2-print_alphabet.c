@@ -7,11 +7,8 @@
 int main(void)
 {
 char i = 'a';
-while (i <= 'z')
-{
+for ( ; i <= 'z'; i++)
 putchar(i);
-i++;
 putchar('\n');
 return (0);
-}
 }
