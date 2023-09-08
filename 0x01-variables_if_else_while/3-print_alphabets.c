@@ -12,5 +12,6 @@ for ( ; letter <= 'z'; letter++)
 putchar(letter);
 for ( ; ch <= 'Z'; ch++)
 putchar(ch);
+putchar('\n');
 return (0);
 }
