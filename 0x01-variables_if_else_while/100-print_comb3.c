@@ -6,16 +6,21 @@
  */
 int main(void)
 {
-int c = '01';
-int d = '10';
-for ( ; c < '10'; c++)
+int c, d;
+for (c = 0 ; c < '9'; c++)
+{
+for (d = c + 1; d <= '9'; d++)
+{
+if (d != c)
 {
 putchar(c);
-for ( ; d <= '99'
-if (c <'10' && d < '99')
-{
+putchar(d);
+if (c == '8' && d == '9')
+continue;
 putchar(',');
 putchar(' ');
+}
+}
 }
 return (0);
 }
