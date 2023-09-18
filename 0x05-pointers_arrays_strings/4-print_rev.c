@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_rev - prints a revrsed string, 
+ * print_rev - prints a revrsed string,
  * @s: string to be revesed
  * Return: no return.
  */
