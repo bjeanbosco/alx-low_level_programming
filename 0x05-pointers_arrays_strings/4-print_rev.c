@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * print_rev - this function print reverse string
- * @s: this is the string to be reversed
- * Return: no return
- * */
+ * print_rev - prints a string, in reverse, followed by a new line.
+ * @s: input string.
+ * Return: no return.
+ */
 void print_rev(char *s)
 {
 int i = strlen(s);
