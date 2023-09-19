@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* _atoi - this convert string itno number
-* @s: this sis the string to be converted into number
+*_atoi - this convert string itno number
+*@s: this sis the string to be converted into number
+*Return: this returs res
 **/
 
 int _atoi(char *s)
