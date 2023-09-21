@@ -14,7 +14,7 @@ char code[] = "4307143071";
 int i, j;
 for (i = 0; str[i]; i++)
 {
-for (j = 0; j < 10; j++)
+for (j = 0; j <= 9; j++)
 {
 if (str[i] == word[j])
 {
