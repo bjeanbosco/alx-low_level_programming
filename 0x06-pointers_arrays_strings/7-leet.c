@@ -11,8 +11,8 @@ char *leet(char *str)
 {
 char word[] = "aeotlAEOLTL";
 char code[] = "4307143071";
-int i, j;
-for (i = 0; str[i]; i++)
+int i = 0, j;
+while (str[i])
 {
 for (j = 0; j <= 9; j++)
 {
@@ -21,6 +21,7 @@ if (str[i] == word[j])
 str[i] = code[j];
 }
 }
+i++;
 }
 return (str);
 }
