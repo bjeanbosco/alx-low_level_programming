@@ -23,6 +23,7 @@ for (j = 0; j < len - 1; j++)
 if (str[i] == letter[j])
 {
 str[i] = reversed[j];
+break;
 }
 }
 i++;
