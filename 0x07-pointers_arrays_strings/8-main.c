@@ -22,4 +22,5 @@ int main(void)
     };
     print_diagsums((int *)c3, 3);
     print_diagsums((int *)c5, 5);
-
+    return (0);
+}
