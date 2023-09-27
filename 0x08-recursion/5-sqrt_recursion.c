@@ -5,17 +5,14 @@
 * _sqrt_recursion - sqrt
 * @n: number
 * Return: on success 1
+* on error return -1
 **/
 
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n, int x)
 {
-int k = sqrt (n);
-if (k != (k / 2 == 0) || k != ((k + 1 ) / 2 == 0))
-{
+if (n * n == x)
+return (n);
+else if (n * n > x)
 return (-1);
-}
-else
-{
-return (k);
-}
+return (_sqrt_recursion(x, n + 1));
 }
