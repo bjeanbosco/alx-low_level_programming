@@ -9,17 +9,9 @@
 
 void _print_rev_recursion(char *s)
 {
-char reverse;
-int i, k, j;
-k = strlen(s);
-for(i = 0; s[i] != '\0'; i++)
+if (*s != '\0')
 {
-for (j = 0; j < k / 2; j++)
-{
-reverse = s[i];
-s[i] = s[k - 1 - i];
-s[k - 1 - i] = reverse;
-}
-_putchar(s[i]);
+_print_rev_recursion(s + 1);
+_putchar(*s);
 }
 }
