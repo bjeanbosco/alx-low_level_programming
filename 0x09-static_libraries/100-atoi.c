@@ -1,6 +1,7 @@
 #include <string.h>
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 * _atoi -function
 * @s: string
@@ -9,5 +10,5 @@
 
 int _atoi(char *s)
 {
-return (_atoi(s));
+return (atoi(s));
 }
