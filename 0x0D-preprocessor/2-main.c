@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #define filename __FILE__
-
+/**
+* printFilename - function
+* @name: parameter
+* Return: on success 1
+**/
 char printFilename(char *name)
 {
 int i, len;
@@ -11,9 +15,13 @@ for (i = 0; i < len; i++)
 putchar(name[i]);
 }
 putchar('\n');
-return(*name);
+return (*name);
 }
 
+/**
+* main - function
+* Return: on success 1
+**/
 int main(void)
 {
 printFilename(filename);
