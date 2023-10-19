@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <errno.h>
 #include "main.h"
 /**
 *_atoi - this convert string itno number
@@ -10,7 +11,7 @@
 
 int _atoi(char *s)
 {
-int res;
+int res = 0;
 res = atoi(s);
 
 return (res);
