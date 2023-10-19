@@ -1,26 +1,26 @@
 #include "lists.h"
-#include <stdio.h>
+
 /**
-* print_list - print function
+* print_list - prints all function
 *
-* @h:pointer to the list
+* @h:the list
 *
-*Return: the number
+*Return: the numbers
 */
 
 size_t print_list(const list_t *h)
 {
-const list_t *k = h;
+const list_t *task = h;
 size_t i = 0;
 
-while (k != NULL)
+while (task != NULL)
 {
-if (k->str != NULL)
-printf("[%d] %s\n", k->len, k->str);
+if (task->str != NULL)
+printf("[%d] %s\n", task->len, task->str);
 else
 printf("[0] (nil)\n");
 i += 1;
-k = k->next;
+task = task->next;
 }
 
 return (i);
