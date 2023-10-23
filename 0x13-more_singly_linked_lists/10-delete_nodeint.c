@@ -3,7 +3,7 @@
 /**
  * delete_nodeint_at_index - deletes the node at index of a listint_t list.
  * @head: pointer to the list.
- * @index: position 
+ * @index: position
  ** Return: 1 if it succeeded, -1 if it failed.
  **/
 int delete_nodeint_at_index(listint_t **head, unsigned int index)

@@ -3,7 +3,7 @@
 /**
  * add_nodeint - adds.
  * @head: pointer .
- * @n: int 
+ * @n: int
  * Return: address
  **/
 listint_t *add_nodeint(listint_t **head, const int n)
